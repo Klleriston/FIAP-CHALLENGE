@@ -7,7 +7,7 @@
 
 body {
     height: 100%;
-    background: #1E1E1E;
+    background: #00000011;
 }
 
 .mt-custom {
@@ -28,8 +28,8 @@ body {
 
 .form-login {
     padding: 3rem;
-    border-radius: 5rem;
-    background-color: #D2D2D2;
+    border-radius: 1rem;
+    background-color: #ffffff;
 }
 
 .input-login {
@@ -37,6 +37,7 @@ body {
 }
 
 .btn {
+    width: 100%;
     background-color: #FFFF;
 }
 
@@ -44,4 +45,76 @@ body {
     display: flex;
     justify-content: center;
     font-size: large;
+}
+
+.nav-color {
+    background-color: #FFFF;
+}
+
+@media (max-width: 768px) {
+    .mt-custom {
+        margin: 5rem;
+    }
+
+    .form-login {
+        padding: 2rem;
+    }
+
+    .icon {
+        height: 2rem;
+    }
+
+    .txt-cred {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .mt-custom {
+        margin: 2rem;
+    }
+
+    .nav-login {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-login {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .txt-cred {
+        font-size: small;
+    }
+}
+
+@media (max-height: 900px) {
+    .mt-custom {
+        margin: 2rem;
+    }
+
+    .nav-login {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-login {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .txt-cred {
+        font-size: small;
+    }
 }
