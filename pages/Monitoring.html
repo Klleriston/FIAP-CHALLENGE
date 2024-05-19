@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoramento e Anomalias</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/monitoringStyles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Monitoramento e Anomalias</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="Home.html" class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row image-container">
+      <div class="col-12 col-md-6 mb-3">
+        <div class="image-wrapper">
+          <img src="../assets/monitoramento svg.svg" class="img-fluid" alt="monitoramento">
+        </div>
+      </div>
+      <div class="col-12 col-md-6 mb-3">
+        <div class="image-wrapper">
+          <img src="../assets/map.svg" class="img-fluid" alt="mapa">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="table-container p-3">
+        <h2 class="text-center">Anomalias e Sinistros</h2>
+        <p class="text-center">Pedágio <strong>Nº 80</strong></p>
+        <div class="table-responsive">
+            <table class="table custom-table">
+                <thead>
+                    <tr>
+                        <th>Veículo</th>
+                        <th>Placa</th>
+                        <th>Cor</th>
+                        <th>Velocidade</th>
+                        <th>Tag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Corsan</td>
+                        <td>RIO2A18</td>
+                        <td>Cinza</td>
+                        <td>120 km/h</td>
+                        <td class="tag-fraude">Fraude</td>
+                    </tr>
+                    <tr>
+                        <td>Strada</td>
+                        <td>DIO1768</td>
+                        <td>Vinho</td>
+                        <td>135 km/h</td>
+                        <td class="tag-velocidade">Velocidade</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="legend text-center mt-3">
+            <span class="velocidade">Velocidade</span>
+            <span class="fraudes">Fraudes</span>
+            <span class="sinistros">Sinistros</span>
+            <span class="acidentes">Acidentes</span>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
