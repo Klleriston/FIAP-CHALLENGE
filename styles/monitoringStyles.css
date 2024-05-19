@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        gap: 10px;
+    }
+}
+
+.table-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.custom-table {
+    background-color: #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #bbb;
+    font-weight: bold;
+}
+
+.tag-fraude {
+    color: red;
+}
+
+.tag-velocidade {
+    color: green;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.legend span {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+
+.legend span::before {
+    content: '•';
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+.legend .velocidade::before {
+    color: green;
+}
+
+.legend .fraudes::before {
+    color: red;
+}
+
+.legend .sinistros::before {
+    color: orange;
+}
+
+.legend .acidentes::before {
+    color: yellow;
+}
