@@ -7,8 +7,3 @@
 - HTML
 - CSS
 - JAVASCRIPT
-
-## Participantes: 
-
- - https://github.com/Klleriston
- - 
