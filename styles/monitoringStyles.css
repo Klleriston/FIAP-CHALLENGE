@@ -8,10 +8,14 @@
 body {
     height: 100%;
     color: #a3a3a3;
-    background: #353535c7;
+    background: #ffffff;
+
+    
 }
 
-
+.nav-color {
+    background-color: #c7c7c7;
+  }
 
 .image-container {
     display: flex;
