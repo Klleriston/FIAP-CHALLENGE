@@ -1,0 +1,70 @@
+body {
+    background-color: #ffffff;
+    color: white;
+}
+
+.nav-color {
+    background-color: #c7c7c7;
+  }
+
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.custom-card {
+    background-color: #444;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-card input, .custom-card select, .custom-card button {
+    margin-bottom: 10px;
+}
+
+.btn-custom {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .btn-custom {
+        width: auto;
+    }
+}
+
+.form-card, .additional-cards {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .form-card, .additional-cards {
+        margin-bottom: 0;
+    }
+}
+
+.content-box {
+    background-color: #444;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.content-box-inner {
+    background-color: #555;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .content-box-inner {
+        margin-bottom: 0;
+    }
+}
+
+.content-box-inner img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+

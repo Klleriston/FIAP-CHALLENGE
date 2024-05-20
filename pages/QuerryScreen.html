@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecsidel</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+    <link href="../styles/QueeryScreenStyle.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" defer ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer ></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-color">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/Logo-Tecsidel.png" alt="Tecsidel Logo">
+            
+        </a>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+ 
+            <div class="col-lg-4 form-card">
+                <div class="custom-card p-3 h-100" id="form-card">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Matrículas:</label>
+                            <input type="email" class="form-control" id="email" placeholder="user@domain.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Localidade:</label>
+                            <select class="form-control" id="location">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="datetime">Data e Hora:</label>
+                            <input type="datetime-local" class="form-control" id="datetime">
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <button type="button" class="btn btn-primary btn-custom mr-2">HOJE</button>
+                            <button type="button" class="btn btn-secondary btn-custom ml-2">SEMANA</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-8 additional-cards">
+                <div class="content-box h-100 d-flex flex-column">
+                    <div class="content-box-inner flex-fill mb-2 d-flex align-items-center justify-content-center" id="content-box-1">
+                        <img src="../assets/dashboard.png" alt="Dashboard Image" class="img-fluid">
+                    </div>
+                    <div class="content-box-inner flex-fill" id="content-box-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
