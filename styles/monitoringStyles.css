@@ -65,11 +65,11 @@ body {
 }
 
 .tag-fraude {
-    color: red;
+    color: #FB2D00;
 }
 
 .tag-velocidade {
-    color: green;
+    color:  #16F246;
 }
 
 .legend {
@@ -83,27 +83,27 @@ body {
     display: flex;
     align-items: center;
     margin: 0 10px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 .legend span::before {
     content: '•';
     margin-right: 5px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .legend .velocidade::before {
-    color: green;
+    color: #16F246;
 }
 
 .legend .fraudes::before {
-    color: red;
+    color: #FB2D00;
 }
 
 .legend .sinistros::before {
-    color: orange;
+    color: #F1972E;
 }
 
 .legend .acidentes::before {
-    color: yellow;
+    color: #EBFF00;
 }
