@@ -7,9 +7,11 @@
 
 body {
     height: 100%;
-    background-color: #000000;
-    color: #ffffff;
+    color: #a3a3a3;
+    background: #353535c7;
 }
+
+
 
 .image-container {
     display: flex;
@@ -40,7 +42,7 @@ body {
 }
 
 .table-container {
-    background-color: #444;
+    background-color: #5e5e5ec9;
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
@@ -53,7 +55,8 @@ body {
     margin: 0 auto;
 }
 
-.custom-table th, .custom-table td {
+.custom-table th,
+.custom-table td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
@@ -106,4 +109,52 @@ body {
 
 .legend .acidentes::before {
     color: yellow;
+}
+
+.btn-monitoring {
+    background: greenyellow;
+}
+
+.icon {
+    height: 3rem;
+}
+
+.nav-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .icon {
+        height: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-login {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-height: 900px) {
+    .mt-custom {
+        margin: 2rem;
+    }
+
+    .nav-login {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
 }
