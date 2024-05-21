@@ -68,3 +68,9 @@ body {
     object-fit: contain;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 3rem;
+}
